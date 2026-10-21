@@ -1,11 +1,11 @@
-def main(fruits,x,i):
+def main(mevalar, i, x):
     """
-    You will be given a list of fruits. Add the x fruit to the i index and return it.
-    Args:
-        fruits(list): parameter 
-        x(str): parameter
-        i(int): parameter
-    Returns:
-        list: return answer
+    Allamurodning bozorlik ro'yxati, indeks i va meva x berilgan. x ni i-o'ringa qo'shib qaytaring (insert()).
+    Argumentlar:
+        mevalar(list): mevalar
+        i(int): indeks
+        x(str): meva
+    Qaytaradi:
+        list: natija ro'yxati
     """
     return

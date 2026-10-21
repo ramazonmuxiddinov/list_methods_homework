@@ -1,10 +1,10 @@
-def main(fruits1, fruits2):
+def main(mevalar1, mevalar2):
     """
-    You will be given a list of several fruits called fruits1 and fruits2. Return the result by adding the second to the first list.
-    Args:
-        fruits1(list): parameter
-        fruits2(list): parameter
-    Returns:
-        list: return answer
+    Ikkita mevalar ro'yxati berilgan. Ikkinchisini birinchisiga qo'shib, birinchi ro'yxatni qaytaring (extend()).
+    Argumentlar:
+        mevalar1(list): 1-ro'yxat
+        mevalar2(list): 2-ro'yxat
+    Qaytaradi:
+        list: natija ro'yxati
     """
     return

@@ -1,9 +1,9 @@
-def main(fruits):
+def main(ballar):
     """
-    A list called "fruits" is given and is five in length and contains at least one "apple". Remove the apples from the list and return the list.
-    Args:
-        fruits(list): parameter
-    Returns:
-        list: return answer
+    Allamurodning fanlardan olgan ballari ro'yxati berilgan. Ro'yxatni o'sish tartibida saralab qaytaring (sort()).
+    Argumentlar:
+        ballar(list): ballar
+    Qaytaradi:
+        list: natija ro'yxati
     """
     return

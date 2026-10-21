@@ -1,9 +1,9 @@
-def main(list01):
+def main(mevalar):
     """
-    A list of zeros and ones is given. Find how many zeros are involved and return.
-    Args:
-        list01(list): parameter
-    Returns:
-        int: return answer
+    Mevalar ro'yxati berilgan (unda albatta "uzum" bor). "uzum" ning indeksini qaytaring (index()).
+    Argumentlar:
+        mevalar(list): mevalar
+    Qaytaradi:
+        int: natija
     """
     return

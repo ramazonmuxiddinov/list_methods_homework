@@ -1,9 +1,9 @@
-def main(list1):
+def main(mevalar):
     """
-    A list of zeros and ones is given. Find how many ones and how many zeros there are and return to the list form.
-    Args:
-        list1(list): parameter
-    Returns:
-        list: return answer
+    Mevalar ro'yxati berilgan (unda albatta "olma" bor). Birinchi uchragan "olma" ni o'chirib, ro'yxatni qaytaring (remove()).
+    Argumentlar:
+        mevalar(list): mevalar
+    Qaytaradi:
+        list: natija ro'yxati
     """
     return

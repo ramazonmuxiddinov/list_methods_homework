@@ -1,10 +1,10 @@
-def main(numbers,i):
+def main(royxat, i):
     """
-    You are given a list of numbers. i Delete and return the number in the index.
-    Args:
-        numbers(list): parameter
-        i(int): parameter
-    Returns:
-        list: return answer
+    Allamurodning oylik daromadlari ro'yxati va indeks i berilgan. i-indeksdagi elementni o'chirib, ro'yxatni qaytaring (pop()).
+    Argumentlar:
+        royxat(list): daromadlar
+        i(int): indeks
+    Qaytaradi:
+        list: natija ro'yxati
     """
     return

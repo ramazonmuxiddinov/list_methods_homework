@@ -1,9 +1,9 @@
-def main(fruits):
+def main(royxat):
     """
-    Given a list called Fruits, it contains at least one apple. Find how many apples are on the list and return.
-    Args:
-        fruits(list): parameter
-    Returns:
-        int: return answer
+    Allamurodning haftalik sport jadvali berilgan (1 — bordi, 0 — bormadi). Necha kun sportga bormaganini qaytaring (count()).
+    Argumentlar:
+        royxat(list): 0 va 1 lar
+    Qaytaradi:
+        int: natija
     """
     return
