@@ -6,4 +6,6 @@ def main(royxat):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    royxat.reverse()
+    return royxat
+print(main(["olma", "nok", "uzum"]))

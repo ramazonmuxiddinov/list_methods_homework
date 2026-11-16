@@ -6,4 +6,7 @@ def main(royxat):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    bir=royxat.count(1)
+    nol=royxat.count(0)
+    return [bir,nol]
+print(main([1, 0, 1, 1, 0, 0, 1]))

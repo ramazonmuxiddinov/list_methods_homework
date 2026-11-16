@@ -6,4 +6,5 @@ def main(ballar):
     Qaytaradi:
         list: natija ro'yxati
     """
+    
     return

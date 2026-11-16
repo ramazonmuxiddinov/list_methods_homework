@@ -6,4 +6,6 @@ def main(mevalar):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    mevalar.remove("olma")
+    return mevalar
+print(main(["olma", "anor", "olma", "uzum", "olma"]))

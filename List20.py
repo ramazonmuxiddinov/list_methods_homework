@@ -7,4 +7,16 @@ def main(navbat, amallar):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    l = len(amallar)
+    i = 0
+    while i < l:
+        if amallar[i][0]=='+':
+            navbat.append(amallar[i][1::])
+        else:
+            navbat.pop(0)
+        i+=1
+    return navbat
+
+navbat=["Akmal", "Dilshod"]
+amallar=["+Allamurod", "-", "+Sardor"]
+print(main(navbat, amallar))

@@ -6,4 +6,7 @@ def main(mevalar):
     Qaytaradi:
         int: natija
     """
-    return
+    x=mevalar.index("uzum")
+    return x
+print(main(["olma", "nok", "uzum"]))
+print(main(["olma", "anor", "olma", "uzum", "olma"]))

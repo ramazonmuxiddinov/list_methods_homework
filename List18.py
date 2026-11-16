@@ -7,4 +7,13 @@ def main(royxat1, royxat2):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    ls=[]
+    i=0
+    while i<len(royxat1):
+        mahsulot=royxat1[i]
+        if mahsulot in royxat2:
+            ls.append(mahsulot)
+        i+=1    
+    return ls
+print(main(["olma", "nok", "uzum", "non"],["non", "sut", "olma"]))
+

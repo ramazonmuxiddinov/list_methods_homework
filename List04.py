@@ -7,4 +7,6 @@ def main(royxat, i):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    royxat.pop(i)
+    return royxat
+print(main([6500000, 7200000, 6800000],1))

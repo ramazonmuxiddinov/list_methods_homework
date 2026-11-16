@@ -7,4 +7,6 @@ def main(mevalar1, mevalar2):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    mevalar1.extend(mevalar2)
+    return mevalar1
+print(main(["olma", "nok", "uzum"],["anor", "shaftoli"]))

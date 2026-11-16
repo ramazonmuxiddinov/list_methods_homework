@@ -6,4 +6,7 @@ def main(mevalar):
     Qaytaradi:
         int: natija
     """
-    return
+    x=mevalar.count("olma")
+    return x
+print(main(["olma", "anor", "olma", "uzum", "olma"]))
+print(main(["olma","nok","uzum"]))

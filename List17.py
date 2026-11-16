@@ -7,4 +7,10 @@ def main(royxat, mahsulot):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    if mahsulot in royxat:
+       royxat.remove(mahsulot)
+    else:
+       royxat.append(mahsulot)
+    return royxat
+print(main(["olma", "nok", "uzum"],"nok"))
+print(main(["olma", "nok", "uzum"],"non"))

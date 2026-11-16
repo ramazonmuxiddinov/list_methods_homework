@@ -8,4 +8,6 @@ def main(mevalar, i, x):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    mevalar.insert(i,x)
+    return mevalar
+print(main(["olma", "nok", "uzum"],1,"anor"))

@@ -6,4 +6,12 @@ def main(royxat):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    ls=[]
+    i=0
+    while i<len(royxat):
+        mahsulot=royxat[i]
+        if ls.count(mahsulot)==0:
+            ls.append(mahsulot)
+        i+=1    
+    return ls
+print(main(["olma", "anor", "olma", "uzum", "olma"]))

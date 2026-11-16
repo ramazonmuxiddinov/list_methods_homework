@@ -6,4 +6,11 @@ def main(mevalar):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    olma=mevalar.count("olma")
+    i=0
+    while i<olma:
+        mevalar.remove("olma")
+        i+=1
+    return mevalar
+print(main(["olma", "anor", "olma", "uzum", "olma"]))
+print(main(["olma", "nok", "uzum"]))

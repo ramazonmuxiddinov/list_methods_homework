@@ -7,4 +7,9 @@ def main(numbers1, numbers2):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    oxirgi=numbers1.pop()
+    numbers2.insert(0,oxirgi)
+    numbers2.extend(numbers1)
+    return numbers2
+print(main([1,2,3],[4,5]))
+print(main([26],[178,74]))

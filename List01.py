@@ -7,4 +7,6 @@ def main(mevalar, x):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    mevalar.append(x)
+    return mevalar
+print(main(["olma", "nok", "uzum"],"anor"))

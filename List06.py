@@ -6,4 +6,6 @@ def main(royxat):
     Qaytaradi:
         int: natija
     """
-    return
+    x=royxat.count(0)
+    return x
+print(main([1, 0, 1, 1, 0, 0, 1]))
